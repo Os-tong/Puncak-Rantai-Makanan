@@ -1,0 +1,59 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.container li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Bawah */
+.judul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.paling{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.atas{
+    display:inline-flex;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.gambar{
+    max-width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    display: block;
+    border-radius: 40%;
+}
+.kata{
+    max-width: 400px;
+    text-align: center;
+}
+.kata h1{
+    padding-bottom: 20px;
+    font-style: bold;
+
+}
+.kata p{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
